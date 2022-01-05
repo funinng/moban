@@ -6,9 +6,11 @@ import router from './router'
 
 import Vant from 'vant';
 import 'vant/lib/index.css';
-
+import hevueImgPreview from 'hevue-img-preview'
 Vue.use(Vant);
+Vue.use(hevueImgPreview)
 Vue.config.productionTip = false
+
 
 /* eslint-disable no-new */
 new Vue({
